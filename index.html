@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>轻流</title>
+  <script>
+
+    console.log("111111")
+    window.fromWebToElectron('test 11111', function(a){
+      console.log("get data from aaaaa ", a)
+    })
+    window.ifElectronWantClose = function(a){
+      console.log("electron told window need to close, ", a)
+    }
+    window.saveDataToFile('aaa', 'aaaa1', function(a){
+      console.log('electron write data aaaa1 to file aaa');
+    })
+    window.saveDataToFileSuccessListener = function(a){
+      console.log("electron write data aaaa1 to file, ", a)
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>
