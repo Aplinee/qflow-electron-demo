@@ -4,3 +4,4 @@ cd electron-quick-start
 npm install
 # Run the app
 npm start
+https://exiao.yuque.com/docs/share/5c366bb7-33a6-4504-870d-1198c8037583?# 《轻流对于APP的支持情况》
